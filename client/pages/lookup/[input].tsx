@@ -15,8 +15,6 @@ import Slider from "../../components/Slider/Slider";
 import Progress, { ProgressItem } from "../../components/Progress/Progress";
 import SliderMobile from "../../components/Slider/SliderMobile";
 
-//process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; // CHANGE BEFORE PRODUCTION
-
 type Props = {
   words: WordSynonyms[];
 };
