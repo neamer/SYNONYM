@@ -1,0 +1,17 @@
+.baseStyle {
+  padding: 15px 45px;
+  background-color: transparent;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: padding 0.2s;
+}
+
+.baseStyle:hover {
+  cursor: pointer;
+}
+
+.reactive:hover {
+  padding: 15px 50px;
+}

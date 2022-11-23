@@ -1,0 +1,41 @@
+.mainText {
+  font-size: 4.3rem;
+  padding-bottom: 25px;
+}
+
+.mainDescription {
+  font-size: 1.5rem;
+  padding-bottom: 32px;
+}
+
+.separator {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 40px;
+  margin-bottom: 100px;
+}
+
+.synonymsHeading {
+  font-size: 1.2rem;
+}
+
+.synonymsSection {
+  padding-top: 32px;
+  width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .mainText {
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+  }
+  .mainDescription {
+    font-size: 1.2rem;
+    padding-bottom: 27px;
+  }
+  .synonymsSection {
+    padding-top: 27px;
+    width: 85vw;
+  }
+}

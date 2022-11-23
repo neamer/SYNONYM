@@ -1,0 +1,51 @@
+.pageNumber {
+  border-radius: 6px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid black;
+}
+
+.mainWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowRight,
+.arrowLeft {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.arrowRight:hover,
+.arrowLeft:hover {
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  cursor: pointer;
+}
+
+.arrowRight {
+  transform: rotate(135deg);
+}
+
+.arrowLeft {
+  transform: rotate(-45deg);
+}
+
+.mainWrapper > .disabledArrow {
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.disabledArrow:hover {
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  cursor: default;
+}

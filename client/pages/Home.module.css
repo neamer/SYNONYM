@@ -1,0 +1,52 @@
+.mainSection {
+  text-align: center;
+  height: calc(100vh - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 600px;
+}
+
+.title {
+  font-size: 4.3rem;
+  padding-bottom: 70px;
+}
+
+.inputWrapper {
+  padding-bottom: 70px;
+}
+
+.orWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  width: 110px;
+}
+
+.or {
+  padding: 0 20px;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 2rem;
+    padding-bottom: 40px;
+  }
+  .orWrapper {
+    padding-bottom: 40px;
+  }
+  .line {
+    width: 60px;
+  }
+  .or {
+    padding: 0 10px;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,30 @@
+.synonym {
+  padding: 15px 20px;
+  border-bottom: 1px solid gray;
+  text-align: left;
+  font-size: 1.2rem;
+  overflow-x: auto;
+  max-height: 60px;
+  display: flex;
+}
+
+.firstSynonym {
+  border-top: 1px solid gray;
+}
+
+.synonymSeparator {
+  padding: 0 10px;
+}
+
+.synonymText {
+}
+
+.synonymDescription {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 700px) {
+  .synonym {
+    padding: 15px 5px;
+  }
+}

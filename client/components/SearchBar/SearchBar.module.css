@@ -1,0 +1,64 @@
+.mainWrapper {
+  position: relative;
+}
+
+.baseStyle {
+  background-color: transparent;
+  padding: 15px 18px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.2rem;
+  display: block;
+  width: 900px;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+.baseColor {
+  border: 1px solid black;
+}
+
+.reactive > input {
+  transition: width 0.2s;
+}
+
+.reactive > input:hover,
+.reactive > input:focus {
+  width: 920px;
+}
+
+.button {
+  position: absolute;
+  top: 15px;
+  border: none;
+  font-size: 1.2rem;
+  background-color: transparent;
+  outline: none;
+  opacity: 0;
+  display: hidden;
+  right: 18px;
+  transition: opacity 0.1s;
+  pointer-events: none;
+}
+
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.reactive:hover > .button,
+.reactive:focus-within > .button {
+  opacity: 1;
+  pointer-events: unset;
+}
+
+@media screen and (max-width: 1000px) {
+  .baseStyle {
+    width: 75vw;
+  }
+
+  .reactive > input:hover,
+  .reactive > input:focus {
+    width: 80vw;
+  }
+}

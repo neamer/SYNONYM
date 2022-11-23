@@ -1,0 +1,24 @@
+.mainSection {
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 165px;
+  position: relative;
+  min-height: 460px;
+}
+
+.sliderItemWrapper {
+  width: 100vw;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.navigation > span {
+  padding-bottom: 10px;
+  display: inline-block;
+}

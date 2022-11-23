@@ -1,0 +1,95 @@
+.stepWrapper {
+  padding-top: 30px;
+}
+
+.listContainer {
+  border: 1px solid black;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+
+.listContainer::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+.listContainer::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.listContainer::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.listContainer::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+.listContainer::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.listContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.addWrapper > .listContainer {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.viewWrapper > .listContainer {
+  height: 250px;
+}
+
+.label {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.emptylistContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+}
+
+.emptylistContainer:hover {
+  cursor: pointer;
+}
+
+.noItems {
+  color: #9ba2b4;
+  font-size: 1.2rem;
+}
+
+.baseInput {
+  background-color: transparent;
+  padding: 12px 15px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.baseColor {
+  border: 1px solid black;
+}
+
+.loading-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}

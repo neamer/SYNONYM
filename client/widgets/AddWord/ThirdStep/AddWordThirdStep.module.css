@@ -1,0 +1,64 @@
+.mainText {
+  font-size: 2.5rem;
+  padding: 15px 0;
+}
+
+.mainDescription {
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+.separator {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 25px;
+  margin-bottom: 60px;
+}
+
+.synonymsHeading {
+  font-size: 1.2rem;
+}
+
+.synonymsSection {
+  padding-top: 32px;
+  margin: auto;
+}
+
+.stepWrapper {
+  height: 350px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.stepWrapper::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.stepWrapper::-webkit-scrollbar-track {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.stepWrapper::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.stepWrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+.stepWrapper::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 700px) {
+  .mainText {
+    font-size: 2.7rem;
+    padding-bottom: 20px;
+  }
+  .mainDescription {
+    font-size: 1.2rem;
+    padding-bottom: 27px;
+  }
+  @media screen and (max-width: 700px) {
+  }
+}

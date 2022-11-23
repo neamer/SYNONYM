@@ -1,0 +1,25 @@
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.position:hover {
+  cursor: pointer;
+}
+
+.positionChecked {
+  background-color: black;
+}
+
+.line {
+  width: 40px;
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,34 @@
+.baseStyle {
+  background-color: transparent;
+  padding: 15px 18px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1.2rem;
+  display: block;
+  width: 900px;
+  box-sizing: content-box;
+}
+
+.baseColor {
+  border: 1px solid black;
+}
+
+.reactive {
+  transition: width 0.2s;
+}
+
+.reactive:hover,
+.reactive:focus {
+  width: 920px;
+}
+
+@media screen and (max-width: 700px) {
+  .baseStyle {
+    width: 75vw;
+  }
+
+  .reactive:hover,
+  .reactive:focus {
+    width: 80vw;
+  }
+}
