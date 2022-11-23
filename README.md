@@ -1,0 +1,2 @@
+# SYNONYM
+Synonym search tool
